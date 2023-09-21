@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<ctype.h>
+int main()
+{
+char ch;
+printf("\nEnter the character: ");
+scanf("%c",&ch);
+if(isdigit(ch))
+printf("\nIt is a digit");
+else if(isalpha(ch))
+printf("\nIt is an alphabet");
+else if(isxdigit(ch))
+printf("\nIt is a hexadecimal digit");
+else if(isspace(ch))
+printf("\nIt is a white space character");
+else if (ispunct(ch))
+printf("\nIt is a punctuation character");
+else if (iscntrl(ch))
+printf("\nIt is a control character");
+else
+printf("\nType not found");
+return 0;
+}
