@@ -1,4 +1,4 @@
-\\C program to check character is vowel or not using switch case
+//C program to check character is vowel or not using switch case
 #include<stdio.h>
 int main()
 {
