@@ -1,0 +1,14 @@
+//Print name n no of times. n taken as input from the user
+#include<stdio.h>
+int main()
+{
+int n,a=1;
+printf("Enter no of times: ");
+scanf("%d",&n);
+do
+{
+printf("\nMy name is ASHIKA!");
+a++;
+}while(a<=n);
+return 0;
+}
