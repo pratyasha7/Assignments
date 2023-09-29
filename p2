@@ -1,0 +1,22 @@
+/*  1
+    12
+    123
+    1234
+    12345 */
+#include<stdio.h>
+int main()
+{
+int n=5,i=1,j;
+while(i<=n)
+{
+printf("\n");
+j=1;
+while(j<=i)
+{
+printf("%d",j);
+j++;
+}
+i++;
+}
+return 0;
+}
